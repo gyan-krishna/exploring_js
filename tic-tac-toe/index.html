@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/566/566294.png">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+    </head>
+
+    <body>
+        <div class="top">
+            <h1>Tic Tac Toe</h1>
+            <h2 id="status"></h2>
+        </div>
+        <br><br>
+        <div class="game-container" id="game-container">
+            <div class="row-container">
+                <div class="d1"><img class="icons" id="im1" onclick="im_click(this.id)"></div>
+                <div class="d2"><img class="icons" id="im2" onclick="im_click(this.id)"></div>
+                <div class="d3"><img class="icons" id="im3" onclick="im_click(this.id)"></div>
+            </div>
+            <div class="row-container">
+                <div class="d4"><img class="icons" id="im4" onclick="im_click(this.id)"></div>
+                <div class="d5"><img class="icons" id="im5" onclick="im_click(this.id)"></div>
+                <div class="d6"><img class="icons" id="im6" onclick="im_click(this.id)"></div>
+            </div>
+            <div class="row-container">
+                <div class="d7"><img class="icons" id="im7" onclick="im_click(this.id)"></div>
+                <div class="d8"><img class="icons" id="im8" onclick="im_click(this.id)"></div>
+                <div class="d9"><img class="icons" id="im9" onclick="im_click(this.id)"></div>
+            </div>
+        </div>
+        <div class="gif-box" id="gif-box">
+            <img id = "anim" src="congo.gif">
+            <h2 class="rst" onclick="reset_game()">Click me to reset!</h2>
+        </div>
+    </body>
+    <script src="js/game.js"></script>
+</html>
